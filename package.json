@@ -1,0 +1,11 @@
+{
+  "name": "game-manifests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Organization-owned game manifests generated automatically from official vendor APIs.",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "validate": "node .github/scripts/validate_manifests.js"
+  }
+}

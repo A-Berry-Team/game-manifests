@@ -1,0 +1,14 @@
+{
+  "name": "Organization game manifests",
+  "description": "Set of manifests generated from official vendor APIs for the games supported by our launcher.",
+  "maintainers": [
+    "A-Berry-Team"
+  ],
+  "manifests": [
+    "hk4e_global.json",
+    "hkrpg_global.json",
+    "nap_global.json",
+    "bh3_global.json",
+    "wuwa_global.json"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "_comment": "Fail-closed allowlists. api_hosts: hosts the generators may call (subdomains included). output_host_suffixes: hosts that may appear in URLs written into manifests (subdomains included). static_asset_urls: exact URLs that are allowed in manifests although their host is not allowlisted (reviewed, hard-coded in config/games.json). Add an entry only after verifying it is an official vendor domain.",
+  "api_hosts": [
+    "sg-hyp-api.hoyoverse.com",
+    "sg-public-api.hoyoverse.com",
+    "aki-game.net",
+    "kurogame.com"
+  ],
+  "output_host_suffixes": [
+    "yuanshen.com",
+    "hoyoverse.com",
+    "mihoyo.com",
+    "starrails.com",
+    "zenlesszonezero.com",
+    "honkaiimpact3.com",
+    "aki-game.net",
+    "kurogame.com"
+  ],
+  "static_asset_urls": [
+    "https://cdn2.steamgriddb.com/icon_thumb/9d435d2e017f7a7384f4e1c6a6f2d169.png"
+  ]
+}

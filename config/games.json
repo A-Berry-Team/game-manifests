@@ -1,0 +1,102 @@
+{
+  "hk4e_global": {
+    "vendor": "hoyo",
+    "status": "implemented",
+    "file": "hk4e_global.json",
+    "display_name": "GenshinImpact (Global)",
+    "name_prefix": "GenshinImpact",
+    "name_suffix": "(Global)",
+    "audio_languages": [
+      "en-us",
+      "zh-cn",
+      "ko-kr",
+      "ja-jp"
+    ]
+  },
+  "hkrpg_global": {
+    "vendor": "hoyo",
+    "status": "implemented",
+    "file": "hkrpg_global.json",
+    "display_name": "HonkaiStarRail (Global)",
+    "name_prefix": "HonkaiStarRail",
+    "name_suffix": "(Global)",
+    "audio_languages": [
+      "en-us",
+      "zh-cn",
+      "ko-kr",
+      "ja-jp"
+    ]
+  },
+  "nap_global": {
+    "vendor": "hoyo",
+    "status": "implemented",
+    "file": "nap_global.json",
+    "display_name": "ZenlessZoneZero (Global)",
+    "name_prefix": "ZenlessZoneZero",
+    "name_suffix": "(Global)",
+    "audio_languages": [
+      "en-us",
+      "zh-cn",
+      "ko-kr",
+      "ja-jp"
+    ],
+    "include_extra_categories": true
+  },
+  "bh3_global": {
+    "vendor": "hoyo",
+    "status": "implemented",
+    "layout": "regions",
+    "file": "bh3_global.json",
+    "display_name": "HonkaiImpact 3rd (Global)",
+    "name_prefix": "HonkaiImpact 3rd",
+    "name_suffix": "(Global)",
+    "audio_languages": [],
+    "regions": [
+      {
+        "region_code": "glb_official",
+        "game_id": "5TIVvvcwtM",
+        "biz": "bh3_global",
+        "required": true
+      },
+      {
+        "region_code": "jp_official",
+        "game_id": "g0mMIvshDb",
+        "biz": "bh3_global"
+      },
+      {
+        "region_code": "kr_official",
+        "game_id": "uxB4MC7nzC",
+        "biz": "bh3_global"
+      },
+      {
+        "region_code": "overseas_official",
+        "game_id": "bxPTXSET5t",
+        "biz": "bh3_global"
+      },
+      {
+        "region_code": "asia_official",
+        "game_id": "wkE5P5WsIf",
+        "biz": "bh3_global"
+      }
+    ]
+  },
+  "wuwa_global": {
+    "vendor": "kuro",
+    "status": "implemented",
+    "file": "wuwa_global.json",
+    "display_name": "WutheringWaves (Global)",
+    "name_prefix": "WutheringWaves",
+    "name_suffix": "(Global)",
+    "launcher_base_url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c",
+    "launcher_index_path": "index.json",
+    "launcher_background_base": "https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/background",
+    "cdn_preferred_host": "hw-pcdownload-aws.aki-game.net",
+    "index_max_bytes": 268435456,
+    "index_timeout_ms": 120000,
+    "static_assets": {
+      "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/9d435d2e017f7a7384f4e1c6a6f2d169.png",
+      "game_background": "",
+      "game_live_background": ""
+    }
+  }
+}

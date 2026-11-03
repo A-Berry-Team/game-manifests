@@ -1,0 +1,4 @@
+node_modules/
+scripts/generated/
+.idea/
+.DS_Store
