@@ -23,7 +23,7 @@ Exactly five games, nothing else:
 ## How it works (short version)
 
 ```
-cron (every 3h) ──> stage existing manifests ──> run scripts/*.js (one per vendor, "append" mode)
+cron (every 2h) ──> stage existing manifests ──> run scripts/*.js (one per vendor, "append" mode)
                          ──> validate (.github/scripts/validate_manifests.js)
                               ├─ valid & additive  ──> push to main (or open a PR, see PUSH_MODE)
                               └─ broken / lossy    ──> restored to HEAD + run turns red
